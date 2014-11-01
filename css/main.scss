@@ -42,7 +42,6 @@ $is-large :         90em;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "normalize",
         "grid",
         "typography",
         "layout"

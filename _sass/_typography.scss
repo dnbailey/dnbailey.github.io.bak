@@ -1,6 +1,6 @@
 /* Typography */
 
-body { color: rgb(22,22,29); font-family: "Cantarell", sans-serif; font-weight: 300; line-height: 1.6; }
+body { color: $text-color; font-family: $base-font-family; font-weight: 300; line-height: 1.6; }
 .block-margins, .block p, .block ul, .block ol, .block pre { margin: 0 0 1em 0; }
 
 // Links
@@ -20,7 +20,7 @@ body { color: rgb(22,22,29); font-family: "Cantarell", sans-serif; font-weight: 
 .blockquote, .block blockquote {margin-left: 0; padding: 2em 2em 1em; background: lighten(rgb(105,104,103),40%);}
 
 // Headings
-.h1, .block h1, .block .h1, .h2, .block h2, .block .h2, .h3, .block h3, .block .h3, .h4, .block h4, .block .h4, .h5, .block h5, .block .h5, .h6, .block h6, .block .h6 { font-family: 'Fjalla One', sans-serif; font-weight: 600; text-transform: uppercase; margin: 0.5em 0 0.5em; }
+.h1, .block h1, .block .h1, .h2, .block h2, .block .h2, .h3, .block h3, .block .h3, .h4, .block h4, .block .h4, .h5, .block h5, .block .h5, .h6, .block h6, .block .h6 { font-family: $header-font-family; font-weight: 600; text-transform: uppercase; margin: 0.5em 0 0.5em; }
 
 .h1, .block h1, .block .h1, .h2, .block h2, .block .h2 { line-height: 1.1; margin-top: 1em; }
 .h3, .block h3, .block .h3, .h4, .block h4, .block .h4 { line-height: 1.3; }

@@ -3,6 +3,12 @@
 // Reset
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+// Set Widths
+.home .block, .post-header, .post { width: 24em; margin: 0 auto; }
+.post figure.full-width {     position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%); }
+
 // Site Header
 .site-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 10000; background: rgb(255,255,255); overflow: hidden; @include transition(all, 0.3s, ease-in-out);
     .block { width: 100%; }

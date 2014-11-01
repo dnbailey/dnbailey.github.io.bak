@@ -32,6 +32,13 @@ $is-large :         90em;
     transition: $transition-property $transition-time $method;
 }
 
+// Opacity Mixin
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {

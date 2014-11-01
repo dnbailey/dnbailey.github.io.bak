@@ -23,7 +23,14 @@ $is-small :         30em;
 $is-medium :        40em;
 $is-large :         90em;
 
-
+// Transition Mixin
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
 
 // Using media queries with like this:
 // @include media-query($palm) {

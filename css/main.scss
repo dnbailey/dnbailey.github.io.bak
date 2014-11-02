@@ -1,20 +1,20 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# dnbailey.org
 ---
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:300,700);
     
 // Our variables
 $base-font-family: 'Roboto Slab', serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.75;
+$large-font-size:  $base-font-size * 1.375;
+$base-line-height: 1.6;
 
 $header-font-family: 'Lato', sans-serif;
 
-$spacing-unit:     30px;
-
 $text-color:       #111;
+$link-color:       rgb(31,31,31);
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -23,7 +23,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 $is-small :         30em;
-$is-medium :        40em;
+$is-medium :        55em;
 $is-large :         90em;
 
 // Transition Mixin
@@ -42,22 +42,7 @@ $is-large :         90em;
   filter: alpha(opacity=$opacity-ie); //IE8
 }
 
-// Using media queries with like this:
-// @include media-query($palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
+// Import partials
 @import
         "grid",
         "typography",

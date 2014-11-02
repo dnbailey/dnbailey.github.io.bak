@@ -11,18 +11,21 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     &.full-width { position: relative; width: 100vw; left: calc(-50vw + 50%); }
     &.large-center { width: 100%; }
     &.quarter-left { position: relative; width: 40vw; max-width: 35em; left: calc(-45vw + 50%); float: left; margin-right: calc(-45vw + 55%); padding-top: 0.5em; margin-bottom: 0; }
-    figcaption { font-size: 0.75em; padding-top: 1em; }
+    figcaption { font-size: $small-font-size; padding-top: 1em; }
 }
 
 // Site Header
 .site-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 10000; background: rgb(255,255,255); overflow: hidden; @include transition(all, 0.3s, ease-in-out);
     .block { width: 100%; }
     h1, nav { display: block; margin: 0 auto; text-align: center; }
+    h1, nav a { @include transition(font-size, 0.3s, ease-in-out); }
     nav { display: none; }
-    h1, nav a { line-height: 75px; @include transition(all, 0.3s, ease-in-out); }
-    h1 { text-transform: uppercase; letter-spacing: 4px; font-size: 2em; margin: 0; }
+    h1, nav a { line-height: 75px; }
+    h1 { text-transform: uppercase; font-size: 2em; margin: 0; 
+        a:hover { color: $grey-color-light; }
+    }
     nav a { font-family: $header-font-family; text-transform: uppercase; color: $grey-color-light; margin: 0 0 0 0; font-size: 1.2em;
-        &:hover { color: #333; }
+        &:hover { color: $grey-color-light; }
     }
     // Reduced Size Header
     &.site-header-shrink { @include opacity(0.97); background: $grey-color; 
@@ -39,10 +42,10 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     &:before { content: " "; background: rgba(0,0,0,0.5); display: block; width: 100%; height: 100%; }
 }
 
-@media screen and (min-width: 55em) {
+@media screen and (min-width: $is-medium) {
     // Set Widths
     .home .block, .post-header { width: 50em; margin: 0 auto; }
-    .post-content { width: 30em; margin: 0 auto; }
+    .post-content { width: 43em; margin: 0 auto; }
     // Figures
         .post figure.large-center { position: relative; width: 75vw; left: calc(-35vw + 50%); }
     

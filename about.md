@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<figure class="quarter-left"><img src="/images/dnbailey.jpg"></figure>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+My name is Nathan Bailey, and I'm an artist. By day, I work as an art teacher. By night, I entertain myself with various creative endeavors. Teaching is my calling. I've never had more fun than showing someone that they can indeed draw.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I'm a pretty big geek. I love to make stuff. Board games are awesome, and I read fantasy/sci-fi books until the early hours of the morning.
+
+A native of Tennessee, I call Kingsport home now. I enjoy waking up and seeing the mist wind its way through the mountains.
+
+You should follow me on Twitter [here](http://twitter.com/dnbailey).

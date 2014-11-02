@@ -49,27 +49,13 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 }
 
 // Home
-.intro { padding-top: 3em;
+.intro { padding-top: 3em; padding-bottom: 3em;
     p { font-size: 1.75em; text-align: center; }
 }
 
 // Buttons
-.btn {
-    border-radius: .3em;
-    border-style: solid;
-    border-width: 1px;
-    display: inline-block;
-    margin-top: 2em;
-    padding: .5em 3em;
-    text-align: center;
-    text-transform: uppercase;
-    transition: color .4s, background-color .4s, border .4s;
-    &:hover, &:focus { 
-        background-color: $brand-color;
-        color: white !important;
-        border-color: $brand-color;
-        transition: background-color .3s, color .3s, border .3s;
-    }
+.btn { border-radius: .3em; border-style: solid; border-width: 1px; display: inline-block; margin-top: 2em; padding: .5em 3em; text-align: center; text-transform: uppercase; transition: color .4s, background-color .4s, border .4s;
+    &:hover, &:focus { background-color: $brand-color; color: white !important; border-color: $brand-color; transition: background-color .3s, color .3s, border .3s; }
     &.wide { width: calc(100% - 6em); }
 }
 

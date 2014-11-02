@@ -56,8 +56,8 @@ img::-moz-selection { background: transparent; }
 
 // Media Queries
 @media screen and (max-width: $is-medium) {
-    .h1, .block h1, .block .h1 { font-size: 250%; letter-spacing: -2px; }
-    .h2, .block h2, .block .h2 { font-size: 200%; letter-spacing: -1px; }
+    .h1, .block h1, .block .h1 { font-size: 250%; letter-spacing: 2px; }
+    .h2, .block h2, .block .h2 { font-size: 200%; letter-spacing: 1px; }
     .h3, .block h3, .block .h3 { font-size: 180%; }
     .h4, .block h4, .block .h4 { font-size: 150%; }
     .h5, .block h5, .block .h5 { font-size: 130%; }

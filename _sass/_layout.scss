@@ -22,7 +22,9 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     nav { display: none; }
     h1, nav a { line-height: 75px; }
     h1 { text-transform: uppercase; font-size: 2em; margin: 0; 
-        a:hover { color: $grey-color-light; }
+        a { color: $grey-color-light;
+            &:hover { color: $grey-color-light; }
+        }
     }
     nav a { font-family: $header-font-family; text-transform: uppercase; color: $grey-color-light; margin: 0 0 0 0; font-size: 1.2em;
         &:hover { color: $grey-color-light; }
@@ -30,9 +32,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     // Reduced Size Header
     &.site-header-shrink { @include opacity(0.97); background: $grey-color; 
         h1, nav a { line-height: 50px; }
-        h1 { font-size: 0.85em; 
-            a {color: $grey-color-light; }
-        }
+        h1 { font-size: 0.85em; }
         nav a { font-size: 0.85em; }
     }
 }

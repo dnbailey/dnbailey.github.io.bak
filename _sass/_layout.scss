@@ -21,7 +21,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     h1, nav { display: block; margin: 0 auto; text-align: center; }
     h1, nav a { @include transition(font-size, 0.3s, ease-in-out); }
     h1, nav a { line-height: 50px; }
-    h1 { text-transform: uppercase; font-size: 2em; margin: 0; 
+    h1 { text-transform: uppercase; font-size: 1.5em; margin: 0; 
         a { color: $grey-color;
             &:hover { color: $grey-color-light; }
         }

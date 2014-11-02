@@ -1,3 +1,11 @@
-<footer class="site-footer">
-
+<footer class="site-footer block">
+    <nav class="footer-nav">
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+    </nav>
+    <div class="legal">&copy; 2014 Nathan Bailey</div>
 </footer>

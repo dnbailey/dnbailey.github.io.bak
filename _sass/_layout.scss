@@ -4,7 +4,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 // Set Widths
-.home .block, .post-header, .post-content { width: 24em; margin: 0 auto; }
+.home .block, .post-header, .post-content, .site-footer .footer-nav, .site-footer .legal { width: 24em; margin: 0 auto; }
 
 // Figures
 .post figure { margin-bottom: 2em;
@@ -46,6 +46,17 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 // Banner
 .banner { width: 100%; height: 30em; overflow: hidden; background: url('/images/banner.jpg'); background-size: cover !important; background-position: center top !important;
     &:before { content: " "; background: rgba(0,0,0,0.5); display: block; width: 100%; height: 100%; }
+}
+
+// Site Footer
+.site-footer { padding-bottom: 2em; background: $grey-color; color: $grey-color-light;
+    a:hover { color: rgb(255,255,255); }
+    .footer-nav { padding: 2em 0; border-bottom: 1px solid $grey-color-light; text-align: center;
+        li { list-style: none; display: inline-block; padding-right: 2em; 
+            &:last-child { padding-right: 0; }
+        }
+    }
+    .legal { padding-top: 2em; font-size: $small-font-size; text-align: center; }
 }
 
 @media screen and (min-width: $is-medium) {

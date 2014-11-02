@@ -4,28 +4,23 @@ permalink: /journal/
 ---
 
 <div class="journal">
-    <section class="block">
-        
+    <section class="posts block">
     {% for post in site.posts limit:10 %}
-        <article>
-            <header>
+        <article class="post">
+            <header class="post-header text-center">
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
                 <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
             </header>
-            <div class="article-content">
+            <div class="post-content">
             {% if post.content contains "<!-- more -->" %}
                 {{ post.content | split:"<!-- more -->" | first }}
                 <footer class="text-center"><a class="btn read-more" href="{{ post.url }}">Read More</a></footer>
             {% else %}
                 {{ post.content}}
+                <footer class="text-center"><a class="btn read-more" href="{{ post.url }}">Permalink</a></footer>
             {% endif %}
             </div>
         </article>
     {% endfor %}
     </section>
-    
-    <div class="subscribe block">
-          <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="btn wide rss-subscribe">subscribe via RSS</a></p>
-
-    </div>
 </div>

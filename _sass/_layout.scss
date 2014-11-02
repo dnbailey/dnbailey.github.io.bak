@@ -90,7 +90,9 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 // Site Footer
 .site-footer { padding-bottom: 2em; background: $grey-color; color: $grey-color-light;
-    a:hover { color: rgb(255,255,255); }
+    a { color: $grey-color-light; text-transform: uppercase;
+        &:hover { color: rgb(255,255,255); }
+    }
     .footer-nav { padding: 2em 0; border-bottom: 1px solid $grey-color-light; text-align: center;
         li { list-style: none; display: inline-block; padding-right: 2em; 
             &:last-child { padding-right: 0; }

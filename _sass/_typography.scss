@@ -4,10 +4,10 @@ body { color: $text-color; font-family: $base-font-family; font-weight: 300; lin
 .block-margins, .block p, .block ul, .block ol, .block pre { font-size: $base-font-size; margin: 0 0 1em 0; }
 
 // Links
-.link, .block a { color: $brand-color; text-decoration: none;
-    &:hover { color: $grey-color; text-decoration: none; }
+.link, .block a { color: $grey-color; text-decoration: none;
+    &:hover { color: $brand-color; text-decoration: none; }
 }
-.post-content a { color: $text-color; text-decoration: underline; 
+.post-content a, .journal .article-content a { color: $text-color; text-decoration: underline; 
     &:hover { color: $brand-color; text-decoration: underline; }
 }
 

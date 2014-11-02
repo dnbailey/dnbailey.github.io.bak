@@ -8,15 +8,18 @@ permalink: /journal/
         
     {% for post in site.posts limit:10 %}
         <article>
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+            <header>
+                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+            </header>
+            <div class="article-content">
             {% if post.content contains "<!-- more -->" %}
                 {{ post.content | split:"<!-- more -->" | first }}
                 <footer class="text-center"><a class="btn read-more" href="{{ post.url }}">Read More</a></footer>
             {% else %}
-                {{ post.content | strip_html | truncatewords:100 }}
-                <footer class="text-center"><a class="btn read-more" href="{{ post.url }}">Read More</a></footer>
+                {{ post.content}}
             {% endif %}
+            </div>
         </article>
     {% endfor %}
     </section>

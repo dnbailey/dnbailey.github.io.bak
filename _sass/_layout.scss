@@ -80,7 +80,12 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 // Journal
 .journal {
-    article { padding-bottom: 3em; border-bottom: 1px solid $grey-color-light; }
+    article { padding-bottom: 3em; border-bottom: 1px solid $grey-color-light;
+        &:last-child { border-bottom: none; }
+        header { text-align: center; 
+            .post-date { font-style: italic; }
+        }
+    }
     .subscribe { 
         .rss-subscribe:hover { background: $grey-color-dark; }
     }

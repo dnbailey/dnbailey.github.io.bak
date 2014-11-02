@@ -89,9 +89,9 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 @media screen and (min-width: $is-medium) {
     // Set Widths
-    .home .block, .journal .block, .post-header, .site-footer .footer-nav, .site-footer .legal { width: 50em; margin: 0 auto; }
+    .home .block, .journal .block, .site-footer .footer-nav, .site-footer .legal { width: 50em; margin: 0 auto; }
     .page-content { overflow: hidden; }
-    .post { width: 43em; margin: 0 auto; word-break: break-word; }
+    .post, .post-header { width: 43em; margin: 0 auto; word-break: break-word; }
     // Figures
     .post figure.large-center { position: relative; width: 75vw; left: calc(-37.5vw + 50%); text-align: center; }
     .post figure {

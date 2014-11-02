@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+banner: /images/post-assets/leaf.jpg
 ---
 
 <figure class="quarter-left"><img src="/images/dnbailey.jpg"></figure>

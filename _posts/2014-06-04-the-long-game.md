@@ -1,6 +1,7 @@
 ---
 layout:    post
 title:     The Long Game
+banner:    /images/post-assets/last-supper.jpg
 ---
 
 I stumbled upon this video essay on [NoFilmSchool](http://nofilmschool.com/2014/05/da-vinci-was-a-loser-failure-stories-you-need-to-hear/?hvid=3pCoTY), and I think it's got a really important message. If nothing else, I found it very encouraging. The video points out some late starters that didn't do their greatest work until after they turned 30. As a person who is about to turn 30, this is a very encouraging message.

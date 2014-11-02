@@ -3,20 +3,25 @@ layout: default
 ---
 
 <div class="home">
+    <section class="intro block">
+        <p>I am a teacher, an artist, and a human. Exploring the world visually means I have many interests. Hopefully the things I create can inspire you.</p>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
+    <section class="journal block">
+        <h1 class="page-heading">Posts</h1>
+        <ul class="post-list block">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <ul class="post-list block">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </li>
+        {% endfor %}
+        </ul>
+    </section>
+  
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

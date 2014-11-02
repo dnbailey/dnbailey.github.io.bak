@@ -48,6 +48,12 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     &:before { content: " "; background: rgba(0,0,0,0.5); display: block; width: 100%; height: 100%; }
 }
 
+// Home
+.intro { padding-top: 3em;
+    p { font-size: 1.75em; text-align: center; }
+}
+
+
 // Post
 .post { padding-bottom: 5em; }
 .video-container {position: relative; margin-bottom: 2em; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
@@ -66,7 +72,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 @media screen and (min-width: $is-medium) {
     // Set Widths
-    .home .block, .post-header { width: 50em; margin: 0 auto; }
+    .home .block, .post-header, .site-footer .footer-nav, .site-footer .legal { width: 50em; margin: 0 auto; }
     .post-content { width: 43em; margin: 0 auto; }
     // Figures
         .post figure.large-center { position: relative; width: 75vw; left: calc(-35vw + 50%); }

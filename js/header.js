@@ -9,3 +9,7 @@ $(document).ready(function() {
        $('#site-nav').toggle("slow","swing") 
     });
 });
+
+$(function () {
+    $('a[rel="lightbox"]').fluidbox();
+})

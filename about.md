@@ -5,7 +5,7 @@ permalink: /about/
 banner: /images/post-assets/leaf.jpg
 ---
 
-<figure class="quarter-left"><img src="/images/dnbailey.jpg"></figure>
+<figure class="quarter-left"><a href="/images/dnbailey.jpg" rel="lightbox"><img src="/images/dnbailey.jpg"></a></figure>
 
 My name is Nathan Bailey, and I'm an artist. By day, I work as an art teacher. By night, I entertain myself with various creative endeavors. Teaching is my calling. I've never had more fun than showing someone that they can indeed draw.
 

@@ -11,5 +11,7 @@ $(document).ready(function() {
 });
 
 $(function () {
-    $('a[rel="lightbox"]').fluidbox();
+    $('a[rel="lightbox"]').fluidbox({
+        viewportFill: 0.85
+    });
 })

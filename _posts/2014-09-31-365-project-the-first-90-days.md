@@ -26,12 +26,14 @@ For some reason this image has become one of my favorites. It just speaks to me.
 Never in a million years would I have guessed I liked photographing flowers as much as I do. For me the flowers symbolize a moment — a breath, a feeling, a thought. Learning this has allowed me to find a simple way of expressing myself.
 
 <figure class="multiple"><a href="/images/posts/2014-09-31-365-project-the-first-90-days/4.jpg" rel="lightbox"><img src="/images/posts/2014-09-31-365-project-the-first-90-days/4_thumb.jpg"></a><a href="/images/posts/2014-09-31-365-project-the-first-90-days/5.jpg" rel="lightbox"><img src="/images/posts/2014-09-31-365-project-the-first-90-days/5_thumb.jpg"></a></figure>
+<div class="spacer"></div>
 
 Fresh blossoms are interesting. However, fading flowers are my favorite. There is something powerfully moving to me about a flower wilting. They are some of the most beautiful images to me. The texture and the shapes are profoundly beautiful.
 
 >There are always flowers for those who want to see them. <cite>Henri Matisse</cite>
 
 <figure class="multiple"><a href="/images/posts/2014-09-31-365-project-the-first-90-days/6.jpg" rel="lightbox"><img src="/images/posts/2014-09-31-365-project-the-first-90-days/6.jpg"></a><a href="/images/posts/2014-09-31-365-project-the-first-90-days/7.jpg" rel="lightbox"><img src="/images/posts/2014-09-31-365-project-the-first-90-days/7.jpg"></a></figure>
+<div class="spacer"></div>
 
 My interest extends beyond flowers. Nature provides a bounty of opportunities. I find that I tend to focus on singular objects.
 

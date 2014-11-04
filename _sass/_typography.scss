@@ -20,7 +20,11 @@ body { color: $text-color; font-family: $base-font-family; font-weight: 300; lin
 .text-big { font-size: $large-font-size; }
 
 // Quotes
-.blockquote, .block blockquote {margin-left: 0; padding: 2em 2em 1em; background: lighten(rgb(105,104,103),40%);}
+.blockquote, .block blockquote { position: relative; width: 75vw; left: calc(-37.5vw + 50%); text-align: center; margin: 2em 0;
+    p { font-size: 1.75em; 
+        cite { display: block; font-size: 0.75em; }
+    }
+}
 
 // Headings
 .h1, .block h1, .block .h1, .h2, .block h2, .block .h2, .h3, .block h3, .block .h3, .h4, .block h4, .block .h4, .h5, .block h5, .block .h5, .h6, .block h6, .block .h6 { font-family: $header-font-family; font-weight: 600; text-transform: uppercase; margin: 0.5em 0 0.5em; }

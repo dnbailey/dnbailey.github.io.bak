@@ -8,6 +8,8 @@ I stumbled upon this video essay on [NoFilmSchool](http://nofilmschool.com/2014/
 
 Hats off to Adam Westbrook and [Delve](http://delve.tv/) for making such an insightful and encouraging video on creativity.
 
+<!-- more -->
+
 ## Part 1
 
 <div class="video-container">

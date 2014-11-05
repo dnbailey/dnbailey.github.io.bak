@@ -3,5 +3,25 @@
         <li><a href="{{ site.baseurl }}/">Home</a></li>
         {% include menu.html %}
     </nav>
+    
+    <div class="social">
+        {% include svg-images/social.html %}
+        <a class="mail" href="mailto:artist@dnbailey.org" title="Email Me">
+          <svg class="social-icon">
+            <use xlink:href="#icon-mail" />
+          </svg>
+        </a>
+        <a class="behance" href="https://www.behance.net/dnbailey" title="Find me on Behance">
+          <svg class="social-icon">
+            <use xlink:href="#icon-behance" />
+          </svg>
+        </a>
+        <a class="twitter" href="http://twitter.com/dnbailey" title="Find me on Twitter">
+          <svg class="social-icon">
+            <use xlink:href="#icon-twitter" />
+          </svg>
+        </a>
+    </div>
+    
     <div class="legal">&copy; 2014 Nathan Bailey</div>
 </footer>

@@ -1,8 +1,10 @@
 ---
-layout:    post
-title:     "365: The First 90 Days"
-banner: /images/posts/2014-09-31-365-project-the-first-90-days/1.jpg
+layout: post
+title: ""
+banner: "/images/posts/2014-09-31-365-project-the-first-90-days/1.jpg"
+published: true
 ---
+
 A photograph a day for the last three months has been eye opening. I wanted to share what I have learned during the first part of my 365 project.
 
 ###Lesson #1: I hate taking photos.
@@ -48,4 +50,3 @@ My background is in painting and drawing, so I started experimenting with combin
 The painting only existed for a few moments. I was liquid floating on glass, so even as I was capturing images it was flowing and changing. This taught me an important lesson. Cameras are tools; people provide the vision.
 
 <figure class="center-full"><a href="/images/posts/2014-09-31-365-project-the-first-90-days/9.jpg" rel="lightbox"><img src="/images/posts/2014-09-31-365-project-the-first-90-days/9.jpg"></a><figcaption>A mixture of oil, milk, and paint the liquid was in constant movement.</figcaption></figure>
-

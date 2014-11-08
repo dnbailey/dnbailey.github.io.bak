@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "365 Project: The First 90 Days"
 banner: "/images/posts/2014-09-31-365-project-the-first-90-days/1.jpg"
 published: true
 ---

@@ -39,6 +39,7 @@ prose:
       - name: "banner"
         field:
           element: "text"
+          lable: "Banner Image"
           value: "/images/banner.jpg"
     _posts/static:
       - name: "layout"

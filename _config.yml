@@ -37,8 +37,8 @@ prose:
       - name: "title"
         field:
           element: "text"
-          value: ""
           label: "Title"
+          value: ""
       - name: "banner"
         field:
           element: "text"
@@ -49,6 +49,10 @@ prose:
         field:
           element: "hidden"
           value: "page"
+      - name: "title"
+        field: "text"
+        label: "Title"
+        value: ""
       - name: "permalink"
         field:
           element: "text"

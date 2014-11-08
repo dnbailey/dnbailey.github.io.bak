@@ -27,6 +27,7 @@ prose:
     - Gemfile
     - Gemfile.lock
     - CNAME
+    - .gitignore
   metadata:
     _posts:
       - name: "layout"

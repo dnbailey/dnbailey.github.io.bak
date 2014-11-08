@@ -34,6 +34,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          value: ""
+          label: "Title"
     _posts/static:
       - name: "layout"
         field:

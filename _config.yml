@@ -48,17 +48,8 @@ prose:
         field:
             element: "hidden"
             value: "page"
-      - name: "title"
-          field:
-            element: "text"
-            label: "title"
       - name: "permalink"
         field:
             element: "text"
             label: "Permalink"
             value: ""
-      - name: "banner"
-        field:
-            element: "text"
-            value: "/images/banner.jpg"
-            label: "Banner Image"

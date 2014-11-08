@@ -32,24 +32,15 @@ prose:
     _posts:
       - name: "layout"
         field:
-            element: "hidden"
-            value: "post"
-      - name: "title"
-          field:
-            element: "text"
-            label: "title"
-      - name: "banner"
-        field:
-            element: "text"
-            value: "/images/banner.jpg"
-            label: "Banner Image"
+          element: "hidden"
+          value: "post"
     _posts/static:
       - name: "layout"
         field:
-            element: "hidden"
-            value: "page"
+          element: "hidden"
+          value: "page"
       - name: "permalink"
         field:
-            element: "text"
-            label: "Permalink"
-            value: ""
+          element: "text"
+          label: "Permalink"
+          value: ""

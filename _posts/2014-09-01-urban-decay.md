@@ -2,6 +2,7 @@
 layout:    post
 title:     "Urban Decay"
 banner: /images/posts/2014-09-01-urban-decay/1.jpeg
+published: true
 ---
 ### Exploring My Small Downtown
 {: class="text-center"}

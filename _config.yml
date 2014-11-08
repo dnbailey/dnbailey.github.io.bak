@@ -2,9 +2,7 @@
 title: dnbailey
 email: artist@dnbailey.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a teacher, an artist, and a human. Exploring the world visually means I have many interests. Hopefully the things I create can inspire you.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dnbailey.org" # the base hostname & protocol for your site
 twitter_username: dnbailey

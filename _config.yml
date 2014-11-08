@@ -39,6 +39,11 @@ prose:
           element: "text"
           value: ""
           label: "Title"
+      - name: "banner"
+        field:
+          element: "text"
+          label: "Banner Image"
+          value: ""
     _posts/static:
       - name: "layout"
         field:

@@ -7,6 +7,7 @@ banner: /images/post-assets/paper.jpg
 <div class="journal">
     <section class="posts block">
     {% for post in site.posts limit:10 %}
+        {% if post.published %}
         <article class="post">
             <header class="post-header text-center">
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -22,6 +23,7 @@ banner: /images/post-assets/paper.jpg
             {% endif %}
             </div>
         </article>
+        {% endif %}
     {% endfor %}
     </section>
 </div>

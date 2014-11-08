@@ -13,7 +13,7 @@ markdown: kramdown
 
 # Prose.io
 prose:
-  rooturl: '_posts'
+  rooturl: '/'
   siteurl: "http://dnbailey.github.io"
   media: 'images'
   ignore:

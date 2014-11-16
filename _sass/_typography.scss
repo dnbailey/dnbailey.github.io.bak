@@ -17,7 +17,7 @@ body { color: $text-color; font-family: $base-font-family; font-weight: 300; lin
 .italic, .block i, .block em { font-style: italic; }
 
 .text-small { font-size: $small-font-size; }
-.text-big { font-size: $large-font-size; }
+.text-big { font-size: $large-font-size !important; }
 
 // Quotes
 .blockquote, .block blockquote { position: relative; width: 75vw; left: calc(-37.5vw + 50%); text-align: center; margin: 2em 0;

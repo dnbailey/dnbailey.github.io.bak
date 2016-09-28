@@ -17,6 +17,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     &.multiple div { margin: 0; 
         div { padding: 0; }
     }
+    &.small { max-width: 50vw; }
+    &.center { margin: 0 auto; }
 }
 
 // Site Header
@@ -114,6 +116,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
     .post figure.multiple { position: relative; width: 75vw; left: calc(-37.5vw + 50%); display: flex; flex-flow: row; align-items: center; margin-bottom: 0;
         div { margin-right: 0.5em; }
     }
+    .post figure.small { max-width: 15vw; }
     .post div.spacer { padding: 1em 0; }
     
     // Site Header
